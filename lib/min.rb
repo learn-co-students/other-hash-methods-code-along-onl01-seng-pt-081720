@@ -9,5 +9,15 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
-  #code your solution here!
+groceries = {
+vegetable: ["carrots", "broccoli", "cucumbers"],	  dairy: ["milk", "yogurt", "cheese"],
+meat: ["chicken", "steak", "salmon"],	  
+vegetable: ["carrots", "broccoli", "cucumbers"],
+grains: ["rice", "pasta"],
+}
+end 
+
+
+def get_the_min(groceries)
+groceries.values.flatten.min
 end
