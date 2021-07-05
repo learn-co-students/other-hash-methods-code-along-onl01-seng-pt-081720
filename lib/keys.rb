@@ -8,6 +8,11 @@ require 'pry'
 #  grains: ["rice", "pasta"]
 # }
 
+groceries = {fruit: "Banana", vegetable: "Broccoli", dessert: "Cookie"}
+ 
+groceries.values
+
+
 def get_the_keys(groceries)
-  #code your solution here!
+  groceries.keys
 end
