@@ -1,4 +1,4 @@
-require 'pry'
+#require 'pry'
 
 #This is the groceries hash we'll be passing in to the get_the_min method
 # groceries = {
@@ -9,5 +9,5 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
-  #code your solution here!
+  groceries[:vegetable].min
 end
